@@ -12,11 +12,13 @@
 .main-Layout::-webkit-scrollbar-track {
   background: rgb(207, 207, 207);
   border-radius: 10px;
+  margin-top: 5px;
 }
 
 .main-Layout::-webkit-scrollbar-thumb {
   background: rgb(80, 80, 80);
   border-radius: 10px;
+  border: 2px solid rgb(207, 207, 207);
 }
 
 .main-Layout::-webkit-scrollbar-thumb:hover {
