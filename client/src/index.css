@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body Styling */
+.main-Layout::-webkit-scrollbar {
+  width: 0.8em;
+}
+
+.main-Layout::-webkit-scrollbar-track {
+  background: rgb(207, 207, 207);
+  border-radius: 10px;
+}
+
+.main-Layout::-webkit-scrollbar-thumb {
+  background: rgb(80, 80, 80);
+  border-radius: 10px;
+}
+
+.main-Layout::-webkit-scrollbar-thumb:hover {
+  background: rgb(100, 100, 100);
+}
+
+/* NavBar Styling */
+.icon-span {
+  width: 20px;
+  margin: 0px 15px;
+}
+.navbar-brand {
+  text-transform: uppercase;
+  text-decoration: solid;
+  font-size: 25px;
+}
+
+/* Register Page Styling */
+
+.register {
+  display: flex;
+  flex-direction: column;
+  /* height: 60vh; */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Page Not Found Styling */
+.pnf-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.pnf-heading {
+  font-size: 130px;
+  text-decoration: solid;
+}
+.pnf-message {
+  font-size: 45px;
+}
+
+/* Footer Styling */
+.footer-link {
+  text-decoration: none;
+  padding: 2px 0px;
+  margin: 0px 10px;
+  color: white;
+}
+.footer-link:hover {
+  color: rgb(199, 199, 199);
+  border-bottom: 2px solid rgb(199, 199, 199);
+}
+
+/* Home Page styling */
+.home-category-slider-box::-webkit-scrollbar {
+  height: 0.8em;
+}
+
+.home-category-slider-box::-webkit-scrollbar-track {
+  background: rgb(207, 207, 207);
+  border-radius: 10px;
+}
+
+.home-category-slider-box::-webkit-scrollbar-thumb {
+  background: rgb(80, 80, 80);
+  border-radius: 10px;
+}
+
+.home-category-slider-box::-webkit-scrollbar-thumb:hover {
+  background: rgb(100, 100, 100);
+}
