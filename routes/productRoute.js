@@ -143,7 +143,7 @@ router.get("/product-photo/:id", async (req, res) => {
   }
 });
 
-// Route 5: This is to get the photo of a single product / Method: DELETE
+// Route 5: This is to Delete a Product/ Method: DELETE
 router.delete("/delete-product/:id", async (req, res) => {
   try {
     const { id } = req.params;
@@ -257,7 +257,7 @@ router.get("/search/:keyword", async (req, res) => {
   }
 });
 
-//Route 9: This is to fetch all the similar products
+//Route 9: This is to fetch all the similar products / Method: GET
 router.get("/similar-products/:pid/:cid", async (req, res) => {
   try {
     const { pid, cid } = req.params;
@@ -277,7 +277,7 @@ router.get("/similar-products/:pid/:cid", async (req, res) => {
   }
 });
 
-// Route 10: This is fetch products category wise
+// Route 10: This is fetch products category wise / Method: GET
 router.get("/category-wise-product/:slug", async (req, res) => {
   try {
     const { slug } = req.params;
@@ -292,7 +292,7 @@ router.get("/category-wise-product/:slug", async (req, res) => {
   }
 });
 
-//This is to reduce the quantity of products
+// Route 11: This is to reduce the quantity of products ? Method: POST
 router.post("/product-quantity-update/:id", async (req, res) => {
   const { id } = req.params;
   const product = await Product.findByIdAndUpdate(
