@@ -30,5 +30,5 @@ You have to take care of come key issues before running the code. You should hav
 
 ## Author
 
-- [@muzz05](https://github.com/muzz05)
+- [Muzzammil Ahmed](https://github.com/muzz05)
 
