@@ -136,7 +136,7 @@ function Home() {
         </div>
         <div className="container my-3">
           <div
-            className="d-flex align-items-center flex-wrap justify-content-center home-category-slider-box"
+            className="d-flex align-items-center   home-category-slider-box"
             style={{ overflowX: "auto" }}
           >
             {categories.map((c) => {
