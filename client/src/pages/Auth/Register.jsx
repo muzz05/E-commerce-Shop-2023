@@ -36,102 +36,104 @@ function Register() {
 
   return (
     <Layout>
-      <div className="register my-4">
+      <div className="register my-2">
         <h1 className="my-4 text-center">Registration Form</h1>
-        <form className="my-2" onSubmit={handleSubmit}>
-          <div className="mb-3">
-            <label htmlFor="exampleInputName" className="form-label">
-              Full Name
-            </label>
-            <input
-              type="text"
-              className="form-control"
-              id="exampleInputName"
-              value={name}
-              onChange={(e) => {
-                setName(e.target.value);
-              }}
-              required
-            />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="exampleInputEmail1" className="form-label">
-              Email address
-            </label>
-            <input
-              type="email"
-              className="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              value={email}
-              onChange={(e) => {
-                setEmail(e.target.value);
-              }}
-              required
-            />
-            <div id="emailHelp" className="form-text">
-              We'll never share your email with anyone else.
+        <form className="my-2 " onSubmit={handleSubmit}>
+          <div className="row container-sm">
+            <div className="mb-3 col-md-6">
+              <label htmlFor="exampleInputName" className="form-label">
+                Full Name
+              </label>
+              <input
+                type="text"
+                className="form-control"
+                id="exampleInputName"
+                value={name}
+                onChange={(e) => {
+                  setName(e.target.value);
+                }}
+                required
+              />
             </div>
-          </div>
-          <div className="mb-3">
-            <label htmlFor="exampleInputPassword1" className="form-label">
-              Password
-            </label>
-            <input
-              type="password"
-              className="form-control"
-              id="exampleInputPassword1"
-              value={password}
-              onChange={(e) => {
-                setPassword(e.target.value);
-              }}
-              required
-            />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="exampleInputAddress" className="form-label">
-              Address
-            </label>
-            <input
-              type="text"
-              className="form-control"
-              id="exampleInputAddress"
-              value={address}
-              onChange={(e) => {
-                setAddress(e.target.value);
-              }}
-              required
-            />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="exampleInputPhone" className="form-label">
-              Phone
-            </label>
-            <input
-              type="text"
-              className="form-control"
-              id="exampleInputPhone"
-              value={phone}
-              onChange={(e) => {
-                setPhone(e.target.value);
-              }}
-              required
-            />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="exampleInputAnswer" className="form-label">
-              What is the name of your BestFriend?
-            </label>
-            <input
-              type="text"
-              className="form-control"
-              id="exampleInputAnswer"
-              value={answer}
-              onChange={(e) => {
-                setAnswer(e.target.value);
-              }}
-              required
-            />
+            <div className="mb-3 col-md-6">
+              <label htmlFor="exampleInputEmail1" className="form-label">
+                Email address
+              </label>
+              <input
+                type="email"
+                className="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                value={email}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
+                required
+              />
+              <div id="emailHelp" className="form-text">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div className="mb-3 col-md-6">
+              <label htmlFor="exampleInputPassword1" className="form-label">
+                Password
+              </label>
+              <input
+                type="password"
+                className="form-control"
+                id="exampleInputPassword1"
+                value={password}
+                onChange={(e) => {
+                  setPassword(e.target.value);
+                }}
+                required
+              />
+            </div>
+            <div className="mb-3 col-md-6">
+              <label htmlFor="exampleInputAddress" className="form-label">
+                Address
+              </label>
+              <input
+                type="text"
+                className="form-control"
+                id="exampleInputAddress"
+                value={address}
+                onChange={(e) => {
+                  setAddress(e.target.value);
+                }}
+                required
+              />
+            </div>
+            <div className="mb-3 col-md-6">
+              <label htmlFor="exampleInputPhone" className="form-label">
+                Phone
+              </label>
+              <input
+                type="text"
+                className="form-control"
+                id="exampleInputPhone"
+                value={phone}
+                onChange={(e) => {
+                  setPhone(e.target.value);
+                }}
+                required
+              />
+            </div>
+            <div className="mb-3 col-md-6">
+              <label htmlFor="exampleInputAnswer" className="form-label">
+                What is the name of your BestFriend?
+              </label>
+              <input
+                type="text"
+                className="form-control"
+                id="exampleInputAnswer"
+                value={answer}
+                onChange={(e) => {
+                  setAnswer(e.target.value);
+                }}
+                required
+              />
+            </div>
           </div>
           <button type="submit" className="btn btn-primary">
             Register

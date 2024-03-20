@@ -116,9 +116,9 @@ function Header() {
                   Categories
                 </Link>
                 <ul className="dropdown-menu">
-                  <Link className="dropdown-item" to="/categories">
+                  {/* <Link className="dropdown-item" to="/categories">
                     All Categories
-                  </Link>
+                  </Link> */}
                   {categories?.map((c) => {
                     return (
                       <li key={`header-categories-${c._id}`}>

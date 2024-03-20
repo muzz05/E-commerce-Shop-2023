@@ -165,7 +165,7 @@ function CreateCategory() {
                 </button>
               </form>
             </div>
-            <div className="container my-4 mx-4">
+            <div className="container my-4 mx-3">
               <table className="table">
                 <thead>
                   <tr>

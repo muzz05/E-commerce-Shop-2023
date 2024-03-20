@@ -6,7 +6,7 @@ function Footer() {
     <>
       <div
         className="bg-dark text-light py-2  fixed-bottom"
-        style={{ height: "80px" }}
+        style={{ height: "12vh" }}
       >
         <h5 className="text-center">All rights reserved &copy; CodeWithMuzz</h5>
         <p className="text-center">

@@ -32,7 +32,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/search" element={<Search />} />
         <Route exact path="/cart" element={<CartPage />} />
-        <Route exact path="/categories" element={<Categories />} />
+        {/* <Route exact path="/categories" element={<Categories />} /> */}
         <Route
           exact
           path="/category/:slug"

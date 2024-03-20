@@ -9,7 +9,7 @@ function Layout(props) {
       <Header />
       <main
         className="main-Layout"
-        style={{ overflowY: "auto", height: "84vh" }}
+        style={{ overflowY: "auto", height: "77vh" }}
       >
         <Toaster />
         {props.children}
